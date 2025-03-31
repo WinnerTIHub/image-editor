@@ -97,5 +97,5 @@ footer.classList.add("footer");
 document.body.appendChild(footer);
 
 document.onload = () => {
-   confirm("after uploading an image increase the contrast to make it more visible");
+   alert("after uploading an image increase the contrast to make it more visible");
 };
