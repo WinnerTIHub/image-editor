@@ -95,3 +95,7 @@ const footer = document.createElement("div");
 footer.textContent = "© 2025 WinnerTI Hub, Made by WinnerTIHub";
 footer.classList.add("footer");
 document.body.appendChild(footer);
+
+document.onload = () => {
+   confirm("after uploading an image increase the contrast to make it more visible");
+};
